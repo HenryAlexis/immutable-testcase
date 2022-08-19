@@ -8,7 +8,7 @@ Use NPM to set up a virtual machine
 npm start
 ```
 
-Otherwise you can find the case study here: [Immutable case study](http://henrydoes.com/immutable-usecase.html) 
+Otherwise you can find the case study here: [Immutable case study](http://henrydoes.com/immutable-casestudy.html) 
 
 ## Technologies
 
