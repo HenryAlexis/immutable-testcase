@@ -9,7 +9,7 @@ import {BrowserRouter as Router, Route} from "react-router-dom"
 function App() {
     return <Router>
         <Header />
-        <Route exact path="/">
+        <Route exact path="/immutable-casestudy.html">
             <Homepage />
         </Route>
         <Route exact path="/blockchains">

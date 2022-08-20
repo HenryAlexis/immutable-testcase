@@ -1,0 +1,64 @@
+{
+  "cryptoslam-top": [
+    {
+      "id": 1,
+      "name":"Bored Ape Yacht Club",
+      "rank": 1,
+      "sales": 1707961
+    },
+    {
+      "id": 2,
+      "name":"Mutant Ape Yacht Club",
+      "rank": 2,
+      "sales": 1191157
+    },
+    {
+      "id": 3,
+      "name":"Otherdeed",
+      "rank": 3,
+      "sales": 1167024
+    },
+    {
+      "id": 4,
+      "name":"ImmutaSwap.io",
+      "rank": 4,
+      "sales":  1119826 
+    },
+    {
+      "id": 5,
+      "name":"Sorare",
+      "rank": 5,
+      "sales":  1077945 
+    },
+    {
+      "id": 6,
+      "name":"NFL All Day",
+      "rank": 6,
+      "sales":  588960 
+    },
+    {
+      "id": 7,
+      "name":"10KTF Stockroom",
+      "rank": 7,
+      "sales":  483823 
+    },
+    {
+      "id": 8,
+      "name":"Genuine Undead",
+      "rank": 8,
+      "sales":  450428 
+    },
+    {
+      "id": 9,
+      "name":"Meebits",
+      "rank": 9,
+      "sales":  439273 
+    },
+    {
+      "id": 10,
+      "name":"Anxie Infinity",
+      "rank": 10,
+      "sales":  412795 
+    }
+  ]
+}

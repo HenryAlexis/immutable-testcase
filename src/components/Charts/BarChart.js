@@ -1,12 +1,15 @@
 import React from "react";
 import {CanvasJSChart} from 'canvasjs-react-charts'
-/**
- * 
- * Component not used 
- */
-function BarChart({title, axisXTitle, axisYTitle, data})
+
+function BarChart({title, axisXTitle, axisYTitle, data1, data2})
 {
     // Options for the graph
+    const dataSource1 = data1.map(item=>{
+        return { 
+            label: item.name, 
+            y: item.sales 
+        };
+    })
     const options = {
         animationEnabled: true,
         theme: "light2",
@@ -23,10 +26,7 @@ function BarChart({title, axisXTitle, axisYTitle, data})
         },
         data: [{
             type: "column",
-            dataPoints: [
-                { label: data.dateYesterday, y: data.sumYesterday },
-                { label: data.dateToday, y: data.sumToday }
-            ]
+            dataPoints: dataSource1
         }]
     }
 
